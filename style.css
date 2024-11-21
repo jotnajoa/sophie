@@ -1,0 +1,25 @@
+select, input {
+    display: block;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+  }
+  
+  .filter-container input {
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+#error-msg {
+    color: red;
+  }
